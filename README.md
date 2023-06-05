@@ -25,8 +25,6 @@ TLDR: highest paid programmer in Indonesia, if you know where to apply.
 
 ### COBOL Compiler
 
-Install `gnucobol3`.
-
 #### Ubuntu and Debian
 
 ```sh
