@@ -8,6 +8,10 @@ helloworld/build:
 helloworld/run:
 	./helloworld
 
+.PHONY: helloworld/all
+helloworld/all:
+	make helloworld/build && make helloworld/run
+
 # `calculator` section
 
 .PHONY: calculator/build
@@ -17,3 +21,7 @@ calculator/build:
 .PHONY: calculator/run
 calculator/run:
 	./calculator
+
+.PHONY: calculator/all
+calculator/all:
+	make calculator/build && make calculator/run
