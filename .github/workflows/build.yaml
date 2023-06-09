@@ -1,0 +1,16 @@
+name: Build COBOL Calculator
+on:
+  push:
+
+jobs:
+  Main:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v3
+      - name: Install COBOL
+        uses: fabasoad/setup-cobol-action@main3.1.2
+      - name: Build 'helloworld'
+        run: make helloworld
+      - name: Build 'calculator'
+        run: make calculator
