@@ -14,5 +14,7 @@ jobs:
           version: '3.1.2'
       - name: Build 'helloworld'
         run: make helloworld/all
+      - name: Build 'performloop'
+        run: make performloop/all
       - name: Build 'calculator'
         run: make calculator/all
