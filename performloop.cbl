@@ -19,7 +19,6 @@ DISPLAY-REPEATED-TEXT.
        DISPLAY 'This is repeated message.'.
 
 DISPLAY-COUNTER.
-       
        DISPLAY 'My counter is ' MY-COUNTER.
        COMPUTE MY-COUNTER = MY-COUNTER - 1.
 
